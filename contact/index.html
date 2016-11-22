@@ -1,0 +1,35 @@
+---
+title: Contact
+layout: default
+---
+
+<div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+    <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">{{ page.title }}</h2>
+    </div>
+    <div class="mdl-card__supporting-text">
+        <p>
+            If you want to contact me, feel free to fill out the form below!
+        </p>
+        <form method="POST" action="http://formspree.io/c.anakor@live.com" class="">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" name="name" id="Name">
+                <label class="mdl-textfield__label" for="Name">Your Name</label>
+                <span class="mdl-textfield__error">Letters and spaces only</span>
+            </div>
+            <br />
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="email" name="email" id="Email">
+                <label class="mdl-textfield__label" for="Email">Your Email Address</label>
+            </div>
+            <br />
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <textarea class="mdl-textfield__input" name="message" type="text" rows="5" id="message"></textarea>
+                <label class="mdl-textfield__label" for="message">Your Message</label>
+            </div>
+            <p>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">Submit</button>
+            </p>
+        </form>
+    </div>
+</div>
