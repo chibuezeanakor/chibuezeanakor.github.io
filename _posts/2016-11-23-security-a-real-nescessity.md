@@ -1,5 +1,5 @@
 ---
-title: "Security&#58; A Real NEScessity
+title: "Security: A Real NEScessity"
 layout: post
 image: lock_nes_image.jpg
 banner: nes_classic_banner.png
