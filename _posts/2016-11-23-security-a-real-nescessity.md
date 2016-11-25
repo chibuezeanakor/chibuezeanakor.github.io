@@ -1,5 +1,5 @@
 ---
-title: Security: A Real NEScessity
+title: "Security&#58; A Real NEScessity
 layout: post
 image: lock_nes_image.jpg
 banner: nes_classic_banner.png
@@ -7,7 +7,7 @@ categories: [blog]
 tags: [Python]
 ---
 
-In case you were wondering, yes, the title of this post is a play on words. Now that _that's_ out of the way, it's time to talk about a real issue this holiday season that many people have had. That issue, of course, is the inability to purchase one of the most requested items of this holiday season, the [NES Classic Edition][1].
+In case you were wondering, yes, the title of this post is a play on words. Since that's out of the way, it's time to talk about a real issue this holiday season that many people have had. That issue, of course, is the inability to purchase one of the most requested items of this holiday season, the [NES Classic Edition][1].
 
 The NES Classic Edition, which had released on November 11, 2016, has been selling out in record time on certain websites. Amazon had a flash sale on release day, which limited purchases to one console per customer. Amazon's stock sold out in minutes, and the site [crashed][2] as a result of the high volume.
 
