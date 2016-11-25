@@ -17,10 +17,12 @@
                         <strong>Posted</strong>
                         <span>{{ page.date | date: "%B %-d, %Y" }}</span>
                     </div>
+                    {% if page.tags.size > 0 %}
                     <div class="mdl-card__supporting-text">
                         <strong>Includes</strong>
-                        <span>{% if page.tags.size > 0 %}{{ page.tags | sort | join: ", " }}{% endif %}</span>
+                        <span>{{ page.tags | sort | join: ", " }}</span>
                     </div>
+                    {% endif %}
                     <div class="mdl-card__supporting-text">
                         {{ content }}
                         {% if page.categories contains 'projects' %}
