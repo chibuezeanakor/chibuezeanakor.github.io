@@ -1,7 +1,7 @@
 ---
 title: Portfolio Website
 layout: post
-categories: [projects, blog]
+categories: [blog, projects]
 tags: [Jekyll, Material Design Lite, GitHub Pages]
 banner: portfolio_website_banner.png
 image: portfolio_website_image.png
