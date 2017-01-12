@@ -13,24 +13,26 @@
                     <div class="mdl-card__media">
                         <img class="article-image" src="{{ site.baseurl }}/images/{{ page.banner }}" border="0" alt="">
                     </div>
-                    <div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding">
-                        <strong>Posted</strong>
-                        <span>{{ page.date | date: "%B %-d, %Y" }}</span> | 
-                    {% if page.tags.size > 0 %}
-                        <strong>Includes</strong>
-                        <span>{{ page.tags | sort | join: ", " }}</span>
+                    <div class"mdl-grid portfolio-copy">
+                        <div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding">
+                            <strong>Posted</strong>
+                            <span>{{ page.date | date: "%B %-d, %Y" }}</span> | 
+                            {% if page.tags.size > 0 %}
+                            <strong>Includes</strong>
+                            <span>{{ page.tags | sort | join: ", " }}</span>
+                            {% endif %}
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col">
+                            {% if page.categories contains 'projects' %}
+                            <a href="https://github.com/{{ site.github_username }}/{{ page.github_repo }}">
+                                <span class="mdl-chip mdl-chip--contact">
+                                    <img class="mdl-chip__contact" src="{{ site.baseurl }}/images/github_logo_black.png">
+                                    <span class="mdl-chip__text">View on GitHub</span>
+                                </span>
+                            </a>
+                            {% endif %}
+                        </div>
                     </div>
-                    <div class="mdl-cell mdl-cell--6-col">
-                        {% if page.categories contains 'projects' %}
-                        <a href="https://github.com/{{ site.github_username }}/{{ page.github_repo }}">
-                            <span class="mdl-chip mdl-chip--contact">
-                            <img class="mdl-chip__contact" src="{{ site.baseurl }}/images/github_logo_black.png">
-                                <span class="mdl-chip__text">View on GitHub</span>
-                            </span>
-                        </a>
-                        {% endif %}
-                    </div>
-                    {% endif %}
                     <div class="mdl-card__supporting-text">
                         {{ content }}
                         {% if page.categories contains 'projects' %}
