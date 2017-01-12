@@ -21,7 +21,7 @@
                             <span>{{ page.tags | sort | join: ", " }}</span>
                             {% endif %}
                         </div>
-                        <div class="mdl-cell mdl-cell--4-col">
+                        <div class="mdl-cell mdl-cell--4-col no-padding">
                             {% if page.categories contains 'projects' %}
                             <a href="https://github.com/{{ site.github_username }}/{{ page.github_repo }}">
                                 <span class="mdl-chip mdl-chip--contact">
