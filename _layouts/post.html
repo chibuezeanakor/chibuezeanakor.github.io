@@ -15,12 +15,13 @@
                     </div>
                     <div class="mdl-card__supporting-text">
                         <strong>Posted</strong>
-                        <span>{{ page.date | date: "%B %-d, %Y" }}</span>
-                    </div>
+                        <span>{{ page.date | date: "%B %-d, %Y" }} | </span>
                     {% if page.tags.size > 0 %}
-                    <div class="mdl-card__supporting-text">
                         <strong>Includes</strong>
-                        <span>{{ page.tags | sort | join: ", " }}</span>
+                        <span>{{ page.tags | sort | join: ", " }} | </span>
+                        <span class="mdl-chip mdl-chip--contact">
+        <img class="mdl-chip__contact" src="{{ site.baseurl }}/images/github_logo_black.png">
+        <span class="mdl-chip__text">View on GitHub</span>
                     </div>
                     {% endif %}
                     <div class="mdl-card__supporting-text">
