@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Chibueze Anakor
-email: c.anakor@live.com
+email: canakor@programmer.net
 description: > # The official portfolio website of Chibueze Anakor
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chibuezeanakor.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
