@@ -21,6 +21,7 @@ url: "https://chibuezeanakor.github.io/" # the base hostname & protocol for your
 twitter_username: chibuezeanakor
 github_username:  chibuezeanakor
 linkedin_url: https://www.linkedin.com/in/chibueze-anakor-75b846b4
+facebook_app_id: 1798597017072962
 
 # Build settings
 markdown: kramdown
