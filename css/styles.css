@@ -163,6 +163,47 @@ img.article-image {
   margin: auto;
 }
 
+.mdl-demo section .section__circle {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -webkit-flex-shrink: 1;
+      -ms-flex-negative: 1;
+          flex-shrink: 1;
+}
+.mdl-demo section .section__text {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  padding-top: 8px;
+}
+.mdl-demo section .section__text h5 {
+  font-size: inherit;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+.mdl-demo section .section__text a {
+  text-decoration: none;
+}
+.mdl-demo section .section__circle-container > .section__circle-container__circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  margin: 8px 0;
+}
+
 .social-btn {
   background-position: center;
   background-size: contain;
@@ -189,9 +230,3 @@ img.article-image {
 .social-btn__twitter {
   background-image:url('https://www.gstatic.com/images/icons/material/system/2x/post_twitter_white_24dp.png');
 }
-
-/* footer {
-  background-image: url({{ site.baseurl }}/images/footer-background.png);
-  background-size: cover;
-} */
-
