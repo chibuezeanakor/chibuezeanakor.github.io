@@ -13,21 +13,29 @@
                     <div class="mdl-card__media">
                         <img class="article-image" src="{{ site.baseurl }}/images/{{ page.banner }}" border="0" alt="">
                     </div>
-                    <div class="mdl-card__supporting-text">
-                        <strong>Posted</strong>
-                        <span>{{ page.date | date: "%B %-d, %Y" }}</span>
+                    <div class="mdl-card__supporting-text"> 
+                        <table border="0" width="100%">
+                            <tr>
+                                <td><strong>Posted</strong><span> {{ page.date | date: "%B %-d, %Y" }}</span></td>
+                                <td align="right">
+                                    {% if page.categories contains 'projects' %}
+                                    <a href="https://github.com/{{ site.github_username }}/{{ page.github_repo }}">
+                                        <span class="mdl-chip mdl-chip--contact">
+                                            <img class="mdl-chip__contact" src="{{ site.baseurl }}/images/github_logo_black.png">
+                                            <span class="mdl-chip__text">View on GitHub</span>
+                                        </span>
+                                    </a>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>{% if page.tags.size > 0 %}<strong>Includes</strong><span> {{ page.tags | sort | join: ", " }}</span>{% endif %}</td>
+                                <td></td>
+                            </tr>
+                        </table>
                     </div>
-                    {% if page.tags.size > 0 %}
-                    <div class="mdl-card__supporting-text">
-                        <strong>Includes</strong>
-                        <span>{{ page.tags | sort | join: ", " }}</span>
-                    </div>
-                    {% endif %}
                     <div class="mdl-card__supporting-text">
                         {{ content }}
-                        {% if page.categories contains 'projects' %}
-                        You can find this project on <a href="https://github.com/{{ site.github_username }}/{{ page.github_repo }}">GitHub</a>.
-                        {% endif %}
                     </div>
                 </div>
             </div>
