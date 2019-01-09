@@ -24,6 +24,7 @@ linkedin_url: https://www.linkedin.com/in/chibueze-anakor-75b846b4
 facebook_app_id: 1798597017072962
 
 # Build settings
+port: 8008
 markdown: kramdown
 gems:
   - jekyll-feed
