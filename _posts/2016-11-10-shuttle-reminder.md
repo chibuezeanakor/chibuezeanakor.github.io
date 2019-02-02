@@ -2,7 +2,7 @@
 title: Shuttle Reminder
 github_repo: shuttle-reminder
 layout: post
-image: twilio_meteor_stock_image.jpg
+thumbnail: twilio_meteor_stock_image.jpg
 banner: meteor_twilio_banner.jpg
 categories: [projects, blog]
 tags: [Twilio, Meteor, Node.js, MongoDB]

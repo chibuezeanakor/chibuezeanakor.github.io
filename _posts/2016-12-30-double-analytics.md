@@ -1,7 +1,7 @@
 ---
 title: Double Analytics
 layout: post
-image: hotjar_logo.jpg
+thumbnail: hotjar_logo.jpg
 banner: hotjar_banner.jpg
 categories: [blog]
 tags: [Analytics]
