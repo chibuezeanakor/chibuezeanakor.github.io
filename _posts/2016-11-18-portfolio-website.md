@@ -4,7 +4,7 @@ layout: post
 categories: [blog, projects]
 tags: [Jekyll, Material Design Lite, GitHub Pages]
 banner: portfolio_website_banner.png
-image: portfolio_website_image.png
+thumbnail: portfolio_website_image.png
 github_repo: chibuezeanakor.github.io
 ---
 
