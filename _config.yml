@@ -26,7 +26,7 @@ facebook_app_id: 1798597017072962
 # Build settings
 port: 8008
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
