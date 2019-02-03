@@ -20,7 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chibuezeanakor.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chibuezeanakor
 github_username:  chibuezeanakor
-linkedin_url: https://www.linkedin.com/in/chibueze-anakor-75b846b4
+linkedin_url: https://www.linkedin.com/in/chibueze-anakor
 facebook_app_id: 1798597017072962
 
 # Build settings
