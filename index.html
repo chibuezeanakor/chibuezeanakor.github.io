@@ -15,7 +15,7 @@ comment_count_visible: true
     </div>
     <div class="mdl-card__supporting-text">
         <p>{{ post.excerpt | truncate: 200 }}</p>
-        <p><a href="{{ page.url | absolute_url }}#disqus_thread">0 Comments</a></p>
+        <p><a href="{{ post.url | absolute_url }}#disqus_thread">0 Comments</a></p>
     </div>
     <div class="mdl-card__actions mdl-card--border">
         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
