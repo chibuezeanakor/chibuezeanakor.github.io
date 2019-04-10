@@ -5,6 +5,7 @@ thumbnail: hotjar_logo.jpg
 banner: hotjar_banner.jpg
 categories: [blog]
 tags: [Analytics]
+comments: true
 ---
 
 This is my final post of 2016, and I thought I'd share a recent update to this site to close out this year. I currently use Google Analytics to check how many people visit this site, but I recently added Hotjar as a backup analytics tool.

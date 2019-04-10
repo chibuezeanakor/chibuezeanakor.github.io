@@ -29,13 +29,15 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>{% if page.tags.size > 0 %}<strong>Includes</strong><span> {{ page.tags | sort | join: ", " }}</span>{% endif %}</td>
-                                <td></td>
+                                    <td><a href="{{ post.url | prepend: site.url }}#disqus_thread">0 Comments</a></td>
+                                <td align="right">{% if page.tags.size > 0 %}<strong>Includes</strong><span> {{ page.tags | sort | join: ", " }}</span>{% endif %}</td>
                             </tr>
                         </table>
                     </div>
                     <div class="mdl-card__supporting-text">
                         {{ content }}
+                        <br>
+                        {% include disqus_comments.html %}
                     </div>
                 </div>
             </div>
@@ -43,5 +45,6 @@
         </main>
     </div>
     <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <script id="dsq-count-scr" src="//chibuezeanakor.disqus.com/count.js" async></script>
 </body>
 </html>

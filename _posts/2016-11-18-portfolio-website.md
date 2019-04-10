@@ -6,6 +6,7 @@ tags: [Jekyll, Material Design Lite, GitHub Pages]
 banner: portfolio_website_banner.png
 thumbnail: portfolio_website_image.png
 github_repo: chibuezeanakor.github.io
+comments: true
 ---
 
 I was inspired by Google's Material Design Lite template for websites and I really needed a portfolio website, so I wanted to see if I could build one for myself. Luckily, Google had many templates for me to choose from.

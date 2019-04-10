@@ -6,6 +6,7 @@ thumbnail: twilio_meteor_stock_image.jpg
 banner: meteor_twilio_banner.jpg
 categories: [projects, blog]
 tags: [Twilio, Meteor, Node.js, MongoDB]
+comments: true
 ---
 
 Do you subscribe to any service that gives you text message alerts? Maybe you've subscribed to Amazon's shipping updates, or SMS alerts from your bank. This project shows you how to create such a service. All you need is Twilio, Node.js, and Meteor, and you're good to go.

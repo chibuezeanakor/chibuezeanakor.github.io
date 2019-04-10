@@ -5,6 +5,7 @@ categories: [blog]
 tags: [Messaging, Android, Allo]
 banner: allo_banner.jpg
 thumbnail: allo_thumbnail.jpg
+comments: true
 ---
 
 It's been about two weeks since Google killed Allo, which was Google's "smart" messaging app that gave you features that you wouldn't find in regular SMS chats. I may be one of just a very small minority in saying this, but I miss Allo a lot, and unfortunately, Android Messages is just not a good replacement for Allo. That's due to US carriers' infuriatingly slow adoption of RCS, which is the standard that is supposed to be the successor of SMS. What did Allo do so well that made me miss it so much? In what ways could Allo have improved? Where does that leave those of us who are on Android who want a reliable messaging app that's smarter than SMS? Stick around to find out my answers to those questions.

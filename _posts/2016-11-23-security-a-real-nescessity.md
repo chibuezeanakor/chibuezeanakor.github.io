@@ -5,6 +5,7 @@ thumbnail: lock_nes_image.jpg
 banner: nes_classic_banner.png
 categories: [blog]
 tags: [Python]
+comments: true
 ---
 
 In case you were wondering, yes, the title of this post is a play on words. Since that's out of the way, it's time to talk about a real issue this holiday season that many people have had. That issue, of course, is the inability to purchase one of the most requested items of this holiday season, the [NES Classic Edition][1].

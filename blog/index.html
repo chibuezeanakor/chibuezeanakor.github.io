@@ -15,6 +15,7 @@ layout: default
     <div class="mdl-card__supporting-text">
         <span>{{ post.date | date: "%b %-d, %Y" }}</span>
         <p>{{ post.excerpt | truncate: 175 }}</p>
+        <p><a href="{{ post.url | prepend: site.url }}#disqus_thread">0 Comments</a></p>
     </div>
     <div class="mdl-card__actions mdl-card--border">
         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
@@ -28,7 +29,6 @@ layout: default
                     class="mdl-menu__item" target="_blank">Facebook</a></li>
             <li><a href="https://twitter.com/share?url={{ post.url | prepend: site.url }}&text={{ post.title }}&via={{ site.twitter_username }}"
                     class="mdl-menu__item" target="_blank">Twitter</a></li>
-            <li><a href="https://plus.google.com/share?url={{ post.url | prepend: site.url }}" class="mdl-menu__item" target="_blank">Google+</a></li>
         </ul>
     </div>
 </div>
