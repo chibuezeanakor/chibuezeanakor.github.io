@@ -25,11 +25,9 @@
                                     </a>
                                     {% endif %}
                                     {% if page.categories contains 'projects' %}
-                                    <a href="https://github.com/{{ site.github_username }}/{{ page.github_repo }}" target="_blank">
-                                        <span class="mdl-chip mdl-chip--contact">
+                                    <a class="mdl-chip mdl-chip--contact" href="https://github.com/{{ site.github_username }}/{{ page.github_repo }}" target="_blank">
                                             <img class="mdl-chip__contact" src="{{ site.baseurl }}/images/github_logo_black.png">
                                             <span class="mdl-chip__text">View on GitHub</span>
-                                        </span>
                                     </a>
                                     {% endif %}
                                 </td>
