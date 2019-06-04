@@ -18,6 +18,12 @@
                             <tr>
                                 <td><strong>Posted</strong><span> {{ page.date | date: "%B %-d, %Y" }}</span></td>
                                 <td align="right">
+                                    {% if page.live_demo %}
+                                    <a class="mdl-chip mdl-chip--contact" href="{{ page.live_demo_url }}" target="_blank">
+                                            <span class="mdl-chip__contact mdl-color--accent mdl-color-text--white">&#9658;</span>
+                                            <span class="mdl-chip__text">Live Demo</span>
+                                    </a>
+                                    {% endif %}
                                     {% if page.categories contains 'projects' %}
                                     <a href="https://github.com/{{ site.github_username }}/{{ page.github_repo }}" target="_blank">
                                         <span class="mdl-chip mdl-chip--contact">
