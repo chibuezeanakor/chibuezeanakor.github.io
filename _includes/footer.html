@@ -1,6 +1,6 @@
 <footer class="mdl-mini-footer">
     <div class="mdl-mini-footer__left-section">
-        <div class="mdl-logo">© MMXXII Chibueze Anakor</div>
+        <div id="copyright" class="mdl-logo"></div>
     </div>
     <div class="mdl-mini-footer__right-section">
         <ul class="mdl-mini-footer__link-list">
@@ -27,4 +27,8 @@
             </li>
         </ul>
     </div>
+    <script>
+        let currentYear = parseInt(new Date().getFullYear());
+        document.getElementById("copyright").innerHTML = "© " + intToRomanNumerals(currentYear) + " Chibueze Anakor";
+    </script>
 </footer>
